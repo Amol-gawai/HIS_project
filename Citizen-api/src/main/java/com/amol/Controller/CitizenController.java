@@ -1,0 +1,8 @@
+package com.amol.Controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CitizenController {
+
+}

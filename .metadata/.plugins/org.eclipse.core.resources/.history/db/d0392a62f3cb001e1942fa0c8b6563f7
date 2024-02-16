@@ -1,0 +1,5 @@
+package com.amol.repo;
+
+public interface CitizenEntity {
+
+}

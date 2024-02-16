@@ -1,0 +1,12 @@
+Sformat_sql: true
+datasource: ''
+ddl-auto: update
+driver-class-name: com.mysql.cj.jdbc.Driver
+hibernate: ''
+jpa: ''
+password: Amol@123
+properties: ''
+show-sql: 'true  '
+spring: ''
+url: jdbc:mysql://localhost:3306/amol
+username: root

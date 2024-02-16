@@ -1,0 +1,24 @@
+package com.amol.entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserDetails {
+	
+	private String full_name;
+	
+	private String dob;
+	
+	private Long ssn;
+	
+	private String Plan_name;
+	
+	private Integer appnumber;
+
+}

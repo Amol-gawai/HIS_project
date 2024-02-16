@@ -1,0 +1,14 @@
+package com.amol.Service;
+
+import com.amol.Entity.CitizensInfo;
+
+public interface CitizenServices {
+	
+	public String Czenlogin(CitizensInfo cinfo);
+	
+	public String CzenForgotPass(String mail);
+	
+	public String CzenRegister(CitizensInfo cinfo);
+	
+	public CitizensInfo CzenDashbord(Integer c_ssn);
+}

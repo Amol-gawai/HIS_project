@@ -1,0 +1,75 @@
+package com.amol.entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserDetails {
+	
+	private String full_name;
+	
+	private String dob;
+	
+	private Long ssn;
+	
+	private String Plan_name;
+	
+	private Integer appnumber;
+	
+
+	public UserDetails() {
+		super();
+	}
+
+	public String getFull_name() {
+		return full_name;
+	}
+
+	public void setFull_name(String full_name) {
+		this.full_name = full_name;
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+
+	public Long getSsn() {
+		return ssn;
+	}
+
+	public void setSsn(Long ssn) {
+		this.ssn = ssn;
+	}
+
+	public String getPlan_name() {
+		return Plan_name;
+	}
+
+	public void setPlan_name(String plan_name) {
+		Plan_name = plan_name;
+	}
+
+	public Integer getAppnumber() {
+		return appnumber;
+	}
+
+	public void setAppnumber(Integer appnumber) {
+		this.appnumber = appnumber;
+	}
+
+	@Override
+	public String toString() {
+		return "UserDetails [full_name=" + full_name + ", dob=" + dob + ", ssn=" + ssn + ", Plan_name=" + Plan_name
+				+ ", appnumber=" + appnumber + "]";
+	}
+
+}

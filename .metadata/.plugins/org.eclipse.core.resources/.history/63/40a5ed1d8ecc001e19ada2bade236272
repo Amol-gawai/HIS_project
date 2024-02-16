@@ -1,0 +1,15 @@
+package com.amol.utils;
+
+import java.util.Random;
+
+public class AppNoGeneration {
+
+		final String appconstant = "1234567890";
+int min=0;
+int max=9;
+	public int generate(int min, int max) {
+		return min + (int) (Math.random() * ((max - min) + 1));
+
+	}
+
+}

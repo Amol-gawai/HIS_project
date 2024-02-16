@@ -1,0 +1,18 @@
+package com.amol.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.amol.entity.UserDetails;
+
+@RestController
+public class AppController {
+	
+	@PostMapping("/sendApp")
+	public String creatApp(@RequestBody UserDetails Udetails)
+	{
+		
+	}
+
+}

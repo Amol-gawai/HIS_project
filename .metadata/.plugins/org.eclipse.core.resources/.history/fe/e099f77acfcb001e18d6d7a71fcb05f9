@@ -1,0 +1,12 @@
+package com.amol.service;
+
+import com.amol.binding.ApplicationCreation;
+import com.amol.entity.UserDetails;
+
+public interface AppService {
+	
+	public String checkRIssn(Long ssn);
+	
+	public ApplicationCreation getCreateApp(UserDetails Udetails);
+
+}

@@ -1,0 +1,12 @@
+package com.amol.utils;
+
+import org.springframework.context.annotation.Bean;
+public class AppNoGeneration {
+
+		final String appconstant = "1234567890";
+	public int generate(int min, int max) {
+		return min + (int) (Math.random() * ((max - min) + 1));
+
+	}
+
+}

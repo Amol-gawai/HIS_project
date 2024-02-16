@@ -1,0 +1,16 @@
+package com.amol.service;
+
+import java.util.List;
+
+import com.amol.binding.SsaRequest;
+import com.amol.entity.UserDetails;
+
+public interface AppService {
+	
+	public String checkRIssn(Long ssn);
+	
+	public UserDetails getCreateApp(SsaRequest ssaReq);
+	
+	public List<UserDetails> getAllApp();
+ 
+}

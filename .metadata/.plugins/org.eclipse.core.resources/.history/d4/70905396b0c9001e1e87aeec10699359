@@ -1,0 +1,10 @@
+package com.amol.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.amol.entity.RiStatePlansInfo;
+
+public interface plansRepo extends JpaRepository<RiStatePlansInfo,Integer> {
+	
+
+}

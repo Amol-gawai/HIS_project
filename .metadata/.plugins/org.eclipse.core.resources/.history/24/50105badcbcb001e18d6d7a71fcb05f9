@@ -1,0 +1,18 @@
+package com.amol.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class UserDetails {
+	
+	private String full_name;
+	
+	private String dob;
+	
+	private Long ssn;
+	
+	private String Plan_name;
+	
+	private Integer appnumber;
+
+}

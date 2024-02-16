@@ -1,0 +1,19 @@
+package com.amol.Service;
+
+import com.amol.Entity.PlanDetails;
+
+public class PlanServiceImpl implements PlanServise {
+
+	@Override
+	public String addPlans(PlanDetails planD) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public PlanDetails getPlan(Integer plan_id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

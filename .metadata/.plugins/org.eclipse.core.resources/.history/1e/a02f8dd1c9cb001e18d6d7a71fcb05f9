@@ -1,0 +1,5 @@
+package com.amol.entity;
+
+public class UserDetails {
+
+}

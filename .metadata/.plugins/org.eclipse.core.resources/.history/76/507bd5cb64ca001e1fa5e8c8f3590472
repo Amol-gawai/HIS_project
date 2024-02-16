@@ -1,0 +1,5 @@
+package com.amol.Dao;
+
+public interface CitizenRepo {
+
+}
